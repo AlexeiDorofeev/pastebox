@@ -6,5 +6,5 @@ import lombok.Data;
 public class PasteBoxRequest {
     private String data;
     private Long expirationTimeSeconds;
-    private PublicStatus PublicStatus;
+    private PublicStatus publicStatus;
 }
